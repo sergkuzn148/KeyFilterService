@@ -1,0 +1,8 @@
+/Users/sergeykuznetsov/Documents/GitHub/AISView/Reader/bin/Debug/netcoreapp3.1/Reader.deps.json
+/Users/sergeykuznetsov/Documents/GitHub/AISView/Reader/bin/Debug/netcoreapp3.1/Reader.dll
+/Users/sergeykuznetsov/Documents/GitHub/AISView/Reader/bin/Debug/netcoreapp3.1/Reader.pdb
+/Users/sergeykuznetsov/Documents/GitHub/AISView/Reader/obj/Debug/netcoreapp3.1/Reader.AssemblyInfoInputs.cache
+/Users/sergeykuznetsov/Documents/GitHub/AISView/Reader/obj/Debug/netcoreapp3.1/Reader.AssemblyInfo.fs
+/Users/sergeykuznetsov/Documents/GitHub/AISView/Reader/obj/Debug/netcoreapp3.1/Reader.dll
+/Users/sergeykuznetsov/Documents/GitHub/AISView/Reader/obj/Debug/netcoreapp3.1/Reader.pdb
+/Users/sergeykuznetsov/Documents/GitHub/AISView/Reader/obj/Debug/netcoreapp3.1/Reader.fsprojAssemblyReference.cache

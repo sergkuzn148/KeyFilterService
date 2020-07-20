@@ -1,0 +1,9 @@
+/Users/sergeykuznetsov/Documents/GitHub/AISView/OAuth/bin/Debug/netcoreapp3.1/OAuth.deps.json
+/Users/sergeykuznetsov/Documents/GitHub/AISView/OAuth/bin/Debug/netcoreapp3.1/OAuth.dll
+/Users/sergeykuznetsov/Documents/GitHub/AISView/OAuth/bin/Debug/netcoreapp3.1/OAuth.pdb
+/Users/sergeykuznetsov/Documents/GitHub/AISView/OAuth/obj/Debug/netcoreapp3.1/OAuth.csprojAssemblyReference.cache
+/Users/sergeykuznetsov/Documents/GitHub/AISView/OAuth/obj/Debug/netcoreapp3.1/OAuth.csproj.CoreCompileInputs.cache
+/Users/sergeykuznetsov/Documents/GitHub/AISView/OAuth/obj/Debug/netcoreapp3.1/OAuth.AssemblyInfoInputs.cache
+/Users/sergeykuznetsov/Documents/GitHub/AISView/OAuth/obj/Debug/netcoreapp3.1/OAuth.AssemblyInfo.cs
+/Users/sergeykuznetsov/Documents/GitHub/AISView/OAuth/obj/Debug/netcoreapp3.1/OAuth.dll
+/Users/sergeykuznetsov/Documents/GitHub/AISView/OAuth/obj/Debug/netcoreapp3.1/OAuth.pdb

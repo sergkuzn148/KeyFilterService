@@ -1,0 +1,17 @@
+/Users/sergeykuznetsov/Documents/GitHub/AISView/RequestExecutor/bin/Debug/netcoreapp3.1/RequestExecutor.deps.json
+/Users/sergeykuznetsov/Documents/GitHub/AISView/RequestExecutor/bin/Debug/netcoreapp3.1/RequestExecutor.runtimeconfig.json
+/Users/sergeykuznetsov/Documents/GitHub/AISView/RequestExecutor/bin/Debug/netcoreapp3.1/RequestExecutor.runtimeconfig.dev.json
+/Users/sergeykuznetsov/Documents/GitHub/AISView/RequestExecutor/bin/Debug/netcoreapp3.1/RequestExecutor.dll
+/Users/sergeykuznetsov/Documents/GitHub/AISView/RequestExecutor/bin/Debug/netcoreapp3.1/RequestExecutor.pdb
+/Users/sergeykuznetsov/Documents/GitHub/AISView/RequestExecutor/bin/Debug/netcoreapp3.1/MailKit.dll
+/Users/sergeykuznetsov/Documents/GitHub/AISView/RequestExecutor/bin/Debug/netcoreapp3.1/MimeKit.dll
+/Users/sergeykuznetsov/Documents/GitHub/AISView/RequestExecutor/bin/Debug/netcoreapp3.1/Npgsql.dll
+/Users/sergeykuznetsov/Documents/GitHub/AISView/RequestExecutor/bin/Debug/netcoreapp3.1/BouncyCastle.Crypto.dll
+/Users/sergeykuznetsov/Documents/GitHub/AISView/RequestExecutor/obj/Debug/netcoreapp3.1/RequestExecutor.csprojAssemblyReference.cache
+/Users/sergeykuznetsov/Documents/GitHub/AISView/RequestExecutor/obj/Debug/netcoreapp3.1/RequestExecutor.AssemblyInfoInputs.cache
+/Users/sergeykuznetsov/Documents/GitHub/AISView/RequestExecutor/obj/Debug/netcoreapp3.1/RequestExecutor.AssemblyInfo.cs
+/Users/sergeykuznetsov/Documents/GitHub/AISView/RequestExecutor/obj/Debug/netcoreapp3.1/RequestExecutor.csproj.CopyComplete
+/Users/sergeykuznetsov/Documents/GitHub/AISView/RequestExecutor/obj/Debug/netcoreapp3.1/RequestExecutor.dll
+/Users/sergeykuznetsov/Documents/GitHub/AISView/RequestExecutor/obj/Debug/netcoreapp3.1/RequestExecutor.pdb
+/Users/sergeykuznetsov/Documents/GitHub/AISView/RequestExecutor/obj/Debug/netcoreapp3.1/RequestExecutor.csproj.CoreCompileInputs.cache
+/Users/sergeykuznetsov/Documents/GitHub/AISView/RequestExecutor/obj/Debug/netcoreapp3.1/RequestExecutor.genruntimeconfig.cache
