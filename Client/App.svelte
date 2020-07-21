@@ -7,7 +7,8 @@
     let allKeys = [];
     let filter = '';
     let allFilters = [];
-     
+    let kind = '';
+    let allKinds = [];
 
     $:{
         disableRun = ( !key ); 
@@ -83,6 +84,14 @@
         <select bind:value="{filter}">
             {#each allFilters as af}
                 <option value="{af.name}">{af.label}</option>
+            {/each}
+        </select>
+    </div>
+     <div class="allKinds">
+        <label>Формат :</label>
+        <select bind:value="{kind}">
+            {#each allKinds as an}
+                <option value="{an.name}">{an.label}</option>
             {/each}
         </select>
     </div>

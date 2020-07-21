@@ -7,3 +7,11 @@
 /Users/sergeykuznetsov/Documents/GitHub/AISView/OAuth/obj/Debug/netcoreapp3.1/OAuth.AssemblyInfo.cs
 /Users/sergeykuznetsov/Documents/GitHub/AISView/OAuth/obj/Debug/netcoreapp3.1/OAuth.dll
 /Users/sergeykuznetsov/Documents/GitHub/AISView/OAuth/obj/Debug/netcoreapp3.1/OAuth.pdb
+D:\projects\AISView1\KeyFilterService\OAuth\bin\Debug\netcoreapp3.1\OAuth.deps.json
+D:\projects\AISView1\KeyFilterService\OAuth\bin\Debug\netcoreapp3.1\OAuth.dll
+D:\projects\AISView1\KeyFilterService\OAuth\bin\Debug\netcoreapp3.1\OAuth.pdb
+D:\projects\AISView1\KeyFilterService\OAuth\obj\Debug\netcoreapp3.1\OAuth.csprojAssemblyReference.cache
+D:\projects\AISView1\KeyFilterService\OAuth\obj\Debug\netcoreapp3.1\OAuth.AssemblyInfoInputs.cache
+D:\projects\AISView1\KeyFilterService\OAuth\obj\Debug\netcoreapp3.1\OAuth.AssemblyInfo.cs
+D:\projects\AISView1\KeyFilterService\OAuth\obj\Debug\netcoreapp3.1\OAuth.dll
+D:\projects\AISView1\KeyFilterService\OAuth\obj\Debug\netcoreapp3.1\OAuth.pdb
