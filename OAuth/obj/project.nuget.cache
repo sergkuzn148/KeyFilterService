@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fv7bnw3F2+Ocvzm4FWzVaV120hyKYKsRQpLBs0u+/qRMKQ9Y4bUnHHId52I5Lo445z2tYiqEFTbBuSwLv/vqIg==",
+  "dgSpecHash": "ALmoS4KneKhUwL34OrZeDTJtjJO6eGkFjMZ4WkZmEGPeu9MUyrGldmnUxHH0QZbe9b/4qZMHfJ0JBIMgTA9Uzw==",
   "success": true,
-  "projectFilePath": "/Users/sergeykuznetsov/Documents/GitHub/AISView/OAuth/OAuth.csproj",
+  "projectFilePath": "/Users/sergeykuznetsov/Documents/GitHub/KeyFilter/OAuth/OAuth.csproj",
   "expectedPackageFiles": [
     "/Users/sergeykuznetsov/.nuget/packages/microsoft.aspnetcore.authentication/2.2.0/microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "/Users/sergeykuznetsov/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

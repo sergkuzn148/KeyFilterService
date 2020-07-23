@@ -14,6 +14,7 @@ namespace Server
       public string Filter { get; set; }
       [JsonProperty("key")]
       public string Key { get; set; }
-    
+   [JsonProperty("kind")]
+      public string Kind { get; set; }
    }
 }

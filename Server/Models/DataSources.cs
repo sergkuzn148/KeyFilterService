@@ -15,5 +15,6 @@ namespace Server
     {
         public DataSource[] Filter { get; set; }
         public DataSource[] Key { get; set; }
+        public DataSource[] Kind { get; set; }
     }
 }

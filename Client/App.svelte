@@ -27,12 +27,16 @@
                         //dateEnd: dateEnd ? dateEnd : null,
                         //mmsi: mmsi ? mmsi.split(/\r?\n/g).map(s => parseInt(s, 10)) : [],
                         key,
-                        filter
+                        filter,
+                        kind
                     })
-                    
                 });
-                await response.json();
-                alert('Запрос отправлен на сервер');
+                let res = await response.text();
+                res = res.replace(/{"result":"/,"");
+                res = res.replace(/[&\/\\#+$~%.*?<>]/g,"");
+                document.writeln(res);
+                //window.open(o, '_blank');
+                //alert(o);
             }
         catch (e) {           	
             alert('Ошибка: отправка не завершена');
@@ -62,7 +66,17 @@
         })
         .catch(e => console.log(e));
     });
-  
+    onMount(() => { 
+       // fetch ('/report/ais/sources')  // серверная машина
+       fetch ('/service/sources') // локальная машина
+        .then(response => response.json())
+        .then(data => {
+           // allKeys = data.key2.concat(data.key1);
+            allKinds = data.kind;
+            kind = allKinds[0].name;
+        })
+        .catch(e => console.log(e));
+    }); 
 
 </script>
 <div class="header">

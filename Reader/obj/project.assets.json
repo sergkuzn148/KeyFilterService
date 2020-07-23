@@ -107,26 +107,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\skuznecov\\.nuget\\packages\\": {}
+    "/Users/sergeykuznetsov/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\projects\\AISView1\\KeyFilterService\\Reader\\Reader.fsproj",
+      "projectUniqueName": "/Users/sergeykuznetsov/Documents/GitHub/KeyFilter/Reader/Reader.fsproj",
       "projectName": "Reader",
-      "projectPath": "D:\\projects\\AISView1\\KeyFilterService\\Reader\\Reader.fsproj",
-      "packagesPath": "C:\\Users\\skuznecov\\.nuget\\packages\\",
-      "outputPath": "D:\\projects\\AISView1\\KeyFilterService\\Reader\\obj\\",
+      "projectPath": "/Users/sergeykuznetsov/Documents/GitHub/KeyFilter/Reader/Reader.fsproj",
+      "packagesPath": "/Users/sergeykuznetsov/.nuget/packages/",
+      "outputPath": "/Users/sergeykuznetsov/Documents/GitHub/KeyFilter/Reader/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\skuznecov\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/sergeykuznetsov/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -140,7 +138,8 @@
         "dependencies": {
           "FSharp.Core": {
             "target": "Package",
-            "version": "[4.7.0, )"
+            "version": "[4.7.0, )",
+            "generatePathProperty": true
           }
         },
         "imports": [
@@ -158,7 +157,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
       }
     }
   }

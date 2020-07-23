@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projects\\AISView1\\KeyFilterService\\Server\\Server.csproj": {}
+    "/Users/sergeykuznetsov/Documents/GitHub/KeyFilter/Server/Server.csproj": {}
   },
   "projects": {
-    "D:\\projects\\AISView1\\KeyFilterService\\OAuth\\OAuth.csproj": {
+    "/Users/sergeykuznetsov/Documents/GitHub/KeyFilter/OAuth/OAuth.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\AISView1\\KeyFilterService\\OAuth\\OAuth.csproj",
+        "projectUniqueName": "/Users/sergeykuznetsov/Documents/GitHub/KeyFilter/OAuth/OAuth.csproj",
         "projectName": "OAuth",
-        "projectPath": "D:\\projects\\AISView1\\KeyFilterService\\OAuth\\OAuth.csproj",
-        "packagesPath": "C:\\Users\\skuznecov\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\AISView1\\KeyFilterService\\OAuth\\obj\\",
+        "projectPath": "/Users/sergeykuznetsov/Documents/GitHub/KeyFilter/OAuth/OAuth.csproj",
+        "packagesPath": "/Users/sergeykuznetsov/.nuget/packages/",
+        "outputPath": "/Users/sergeykuznetsov/Documents/GitHub/KeyFilter/OAuth/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\skuznecov\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/sergeykuznetsov/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -78,28 +76,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\projects\\AISView1\\KeyFilterService\\Reader\\Reader.fsproj": {
+    "/Users/sergeykuznetsov/Documents/GitHub/KeyFilter/Reader/Reader.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\AISView1\\KeyFilterService\\Reader\\Reader.fsproj",
+        "projectUniqueName": "/Users/sergeykuznetsov/Documents/GitHub/KeyFilter/Reader/Reader.fsproj",
         "projectName": "Reader",
-        "projectPath": "D:\\projects\\AISView1\\KeyFilterService\\Reader\\Reader.fsproj",
-        "packagesPath": "C:\\Users\\skuznecov\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\AISView1\\KeyFilterService\\Reader\\obj\\",
+        "projectPath": "/Users/sergeykuznetsov/Documents/GitHub/KeyFilter/Reader/Reader.fsproj",
+        "packagesPath": "/Users/sergeykuznetsov/.nuget/packages/",
+        "outputPath": "/Users/sergeykuznetsov/Documents/GitHub/KeyFilter/Reader/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\skuznecov\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/sergeykuznetsov/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -113,7 +109,8 @@
           "dependencies": {
             "FSharp.Core": {
               "target": "Package",
-              "version": "[4.7.0, )"
+              "version": "[4.7.0, )",
+              "generatePathProperty": true
             }
           },
           "imports": [
@@ -131,38 +128,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\projects\\AISView1\\KeyFilterService\\Server\\Server.csproj": {
+    "/Users/sergeykuznetsov/Documents/GitHub/KeyFilter/Server/Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\AISView1\\KeyFilterService\\Server\\Server.csproj",
+        "projectUniqueName": "/Users/sergeykuznetsov/Documents/GitHub/KeyFilter/Server/Server.csproj",
         "projectName": "Server",
-        "projectPath": "D:\\projects\\AISView1\\KeyFilterService\\Server\\Server.csproj",
-        "packagesPath": "C:\\Users\\skuznecov\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\AISView1\\KeyFilterService\\Server\\obj\\",
+        "projectPath": "/Users/sergeykuznetsov/Documents/GitHub/KeyFilter/Server/Server.csproj",
+        "packagesPath": "/Users/sergeykuznetsov/.nuget/packages/",
+        "outputPath": "/Users/sergeykuznetsov/Documents/GitHub/KeyFilter/Server/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\skuznecov\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/sergeykuznetsov/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\projects\\AISView1\\KeyFilterService\\OAuth\\OAuth.csproj": {
-                "projectPath": "D:\\projects\\AISView1\\KeyFilterService\\OAuth\\OAuth.csproj"
+              "/Users/sergeykuznetsov/Documents/GitHub/KeyFilter/OAuth/OAuth.csproj": {
+                "projectPath": "/Users/sergeykuznetsov/Documents/GitHub/KeyFilter/OAuth/OAuth.csproj"
               },
-              "D:\\projects\\AISView1\\KeyFilterService\\Reader\\Reader.fsproj": {
-                "projectPath": "D:\\projects\\AISView1\\KeyFilterService\\Reader\\Reader.fsproj"
+              "/Users/sergeykuznetsov/Documents/GitHub/KeyFilter/Reader/Reader.fsproj": {
+                "projectPath": "/Users/sergeykuznetsov/Documents/GitHub/KeyFilter/Reader/Reader.fsproj"
               }
             }
           }
@@ -211,7 +206,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
         }
       }
     }

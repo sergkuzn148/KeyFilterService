@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pfAwVKplIWtTvfCR85BpaU7kK961hXWtPVPT5zJvBiuUPPY/o0wsz9Bojhg9am/p+Y8W1D7Fj6swRoqywAIAjA==",
+  "dgSpecHash": "RUE32cnXGKuD9MRl2V3zcZXq+n9CS+tlHZ+X5RsmN+WQmr8PmTTW78xKrvPGyxSUOX2YyObhTW3SyL5opuqZDw==",
   "success": true,
-  "projectFilePath": "/Users/sergeykuznetsov/Documents/GitHub/AISView/Server/Server.csproj",
+  "projectFilePath": "/Users/sergeykuznetsov/Documents/GitHub/KeyFilter/Server/Server.csproj",
   "expectedPackageFiles": [
     "/Users/sergeykuznetsov/.nuget/packages/fsharp.core/4.7.0/fsharp.core.4.7.0.nupkg.sha512",
     "/Users/sergeykuznetsov/.nuget/packages/mailkit/2.5.2/mailkit.2.5.2.nupkg.sha512",
