@@ -33,8 +33,7 @@
                 });
                 let res = await response.text();
                 if (kind == "csv") {
-                    alert('LOOOOOOOOL');
-                    //document.location.href = res;
+                    document.location.href = res;
                 } else {
                     res = res.replace(/{"result":"/,"");
                     res = res.replace(/[&\/\\#+$~%.*?<>]/g,"");
