@@ -32,11 +32,14 @@
                     })
                 });
                 let res = await response.text();
-                res = res.replace(/{"result":"/,"");
-                res = res.replace(/[&\/\\#+$~%.*?<>]/g,"");
-                document.writeln(res);
-                //window.open(o, '_blank');
-                //alert(o);
+                if (kind == "csv") {
+                    alert('LOOOOOOOOL');
+                    //document.location.href = res;
+                } else {
+                    res = res.replace(/{"result":"/,"");
+                    res = res.replace(/[&\/\\#+$~%.*?<>]/g,"");
+                    document.writeln(res);
+                }
             }
         catch (e) {           	
             alert('Ошибка: отправка не завершена');

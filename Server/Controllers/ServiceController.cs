@@ -47,12 +47,13 @@ namespace Server.Controllers
         }
             
         [HttpPost("reports")]
-        public async Task<ActionResult> Post([FromBody] ServiceRequest serviceRequest)
+        //public async Task<ActionResult> Post([FromBody] ServiceRequest serviceRequest)
+        public string Post([FromBody] ServiceRequest serviceRequest)
         {   
             //Для каждого комбобокса diktionary
             //для ключа!
             //в Dictionary в качестве ключа элемент из комбобокса 
-            //в качестве элемента набор API KEY 
+            //в качестве элемента набор API KEY
             //на кнопку наж => Запрос на сервере на внешний ресурс и его ответ возвращается на клиента(файл/ текст)
             try{      
                 //var key = _dataSources.Key.Single(ds => ds.Name == serviceRequest.Key).Table;
@@ -61,8 +62,9 @@ namespace Server.Controllers
                 var kind =serviceRequest.Kind;
                 //LogHelper.Write("Метод пост выполнен");
                 string link = $"https://services.exactearth.com/gws/wfs?service=wfs&version=1.1.0&request=GetFeature&typeName=exactAIS:{filter}&authKey={key}&outputFormat={kind}";
+                if (kind == "csv")
+                    return link;  
                 string result = null;
-                
                 //WebProxy proxyObject = new WebProxy("192.168.4.10:8080",true);
                 HttpWebRequest request = (HttpWebRequest)WebRequest.Create(link);
                 HttpWebResponse myHttpWebResponse = (HttpWebResponse) request.GetResponse();                
@@ -71,7 +73,6 @@ namespace Server.Controllers
                 StreamReader readStream = new StreamReader( receiveStream, encode );
                 Char[] read = new Char[256];
                 int count = readStream.Read( read, 0, 256 );
-                
                 while (count > 0)
                     {
                         // Dumps the 256 characters on a string and displays the string to the console.
@@ -79,16 +80,12 @@ namespace Server.Controllers
                         result += str; 
                         count = readStream.Read(read, 0, 256);
                     }
-                
                 // Releases the resources of the response.
                 myHttpWebResponse.Close();
                 // Releases the resources of the Stream.
                 readStream.Close();
-                
                 //Process.Start(link);
-                return Ok(new  {
-                    result
-                });
+                return result;
             }            
             catch (Exception e){
                 _logger.LogError($"При выполнении метода отправки запроса произошла ошибка: {e.ToString()}");
