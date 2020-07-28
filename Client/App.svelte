@@ -46,8 +46,8 @@
     }  
   
     onMount(() => { 
-       // fetch ('/report/ais/sources')  // серверная машина
-       fetch ('/service/sources') // локальная машина
+        fetch ('/report/ais/sources')  // серверная машина
+       // fetch ('/service/sources') // локальная машина
         .then(response => response.json())
         .then(data => {
            // allKeys = data.key2.concat(data.key1);
@@ -58,8 +58,8 @@
     });
 
     onMount(() => { 
-       // fetch ('/report/ais/sources')  // серверная машина
-       fetch ('/service/sources') // локальная машина
+        fetch ('/report/ais/sources')  // серверная машина
+       //fetch ('/service/sources') // локальная машина
         .then(response => response.json())
         .then(data => {
            // allKeys = data.key2.concat(data.key1);
@@ -69,8 +69,8 @@
         .catch(e => console.log(e));
     });
     onMount(() => { 
-       // fetch ('/report/ais/sources')  // серверная машина
-       fetch ('/service/sources') // локальная машина
+        fetch ('/report/ais/sources')  // серверная машина
+       //fetch ('/service/sources') // локальная машина
         .then(response => response.json())
         .then(data => {
            // allKeys = data.key2.concat(data.key1);
